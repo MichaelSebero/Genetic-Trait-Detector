@@ -336,7 +336,7 @@ if Intelligence1:
 if Intelligence2:
     print(f"You have a trait which is associated with Intelligence | rs363039 (A;G) or (C;C) https://www.snpedia.com/index.php/rs363039")
 if Intelligence3:
-    print(f"You have a trait which is associated with Intelligence | rs4680 (A;A) https://www.snpedia.com/index.php/rs4680")
+    print(f"You have a trait which is associated with Intelligence | rs4680 with the genotype of (A;A) https://www.snpedia.com/index.php/rs4680")
 # If Muscular Performance
 if Muscular_Performance1:
     print(f"You have a trait which is associated with Muscular Performance | rs1815739 with the genotype of (C;C) or (C;T) https://www.snpedia.com/index.php/rs1815739")
