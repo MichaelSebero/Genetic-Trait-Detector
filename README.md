@@ -23,12 +23,11 @@ Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intel
 ## DISCLAIMER
 This software is not meant to diagnose any disorders or diseases. SNP data in this script is sourced from https://www.snpedia.com/ which publish genetic datasets. The process of diagnosis is complex and requires additional steps to confirm. 
 
-## Donations and Contacts
-PayPal: https://www.paypal.com/donate/?cmd=_donations&business=YYGU9JWJEE2AG
-
-My Website: https://greenlightsuccess.webflow.io
-
 <p align="center">
   <img src="https://i.postimg.cc/zv6QDz2Q/The-Ooze-MD-09.gif"/>
 </p>
 
+## Donations and Contacts
+PayPal: https://www.paypal.com/donate/?cmd=_donations&business=YYGU9JWJEE2AG
+
+My Website: https://greenlightsuccess.webflow.io
