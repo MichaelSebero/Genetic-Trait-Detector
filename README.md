@@ -28,5 +28,5 @@ PayPal: https://www.paypal.com/donate/?cmd=_donations&business=YYGU9JWJEE2AG
 
 My Website: https://greenlightsuccess.webflow.io
 
-<p align="center">
-	<img src="https://i.postimg.cc/zv6QDz2Q/The-Ooze-MD-09.gif" />
+[![The-Ooze-MD-09.gif](https://i.postimg.cc/zv6QDz2Q/The-Ooze-MD-09.gif)](https://postimg.cc/wR520pp5)
+
