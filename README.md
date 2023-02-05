@@ -11,7 +11,7 @@ Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intel
 
 . Aquire a copy of your DNA data from a genetic testing platform.
 
-. Open up the DNA file and make sure it's formatted in in rsID format. 
+. Open up the DNA file and make sure it's formatted in rsID format. 
 > The script looks for the rsid and genotype to determine results.
 
     rsid      chromosome     position    allele1	allele2
