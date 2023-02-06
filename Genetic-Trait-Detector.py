@@ -1,4 +1,4 @@
-filename = input("Enter the location of DNA data file: ")
+filename = input("Enter the location of the DNA data file: ")
 #=============================================================================================== Update 1
 # Bipolar Disorder 1
 keyword1 = "rs1006737"
