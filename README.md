@@ -1,7 +1,7 @@
 ## Description
 Genetic-Trait-Detector detects traits in your genes when provided DNA data which is formatted in rsID format. Once the traits are matched with genes from your DNA you'll be given a result which tells you what traits your genes are associated with. Read the disclaimer for more information reguarding results.
 
-The intention of this software is to provide a FOSS alternative to detecting genetic traits. Databreaches occur often and institutions shouldn't be trusted with processing / storing genetic data over a long period of time. Genetic-Trait-Detector is completely private and can be ran offline without sending PIA to a website.
+The intention of this software is to provide a FOSS alternative to detecting genetic traits. Databreaches occur often and institutions shouldn't be trusted with processing / storing client genetic data over a long period of time. Genetic-Trait-Detector is completely private and can be ran offline without sending PIA to a website.
 
 ## This script detects genetic traits associated with 
 ```
