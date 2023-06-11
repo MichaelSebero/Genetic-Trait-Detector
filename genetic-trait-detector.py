@@ -188,7 +188,7 @@ keyword170 = "C	G" or "C|G"
 keyword171 = "rs3758391"
 keyword172 = "T	T" or "T|T"
 keyword173 = "rs5882	"
-keyword174 = "C	G" or "C|G"
+keyword174 = "A	G" or "A|G"
 keyword175 = "rs1042522	"
 keyword176 = "C	G" or "C|G"
 # Intelligence 2
@@ -435,7 +435,7 @@ if Schizophrenia16:
 if Longevity1:
     print(f"You have a trait which is associated with Longevity | rs3758391 with the genotype of (C;T) https://www.snpedia.com/index.php/rs3758391")
 if Longevity2:
-    print(f"You have a trait which is associated with Longevity | rs5882 with the genotype of (C;C) https://www.snpedia.com/index.php/rs5882")
+    print(f"You have a trait which is associated with Longevity | rs5882 with the genotype of (A;A) https://www.snpedia.com/index.php/rs5882")
 if Longevity3:
     print(f"You have a trait which is associated with Longevity | rs1042522 with the genotype of (C;C) https://www.snpedia.com/index.php/rs1042522")
 if Longevity4:
@@ -463,7 +463,7 @@ if Longevity13:
 if Longevity14:
     print(f"You have a trait which is associated with Longevity | rs3758391 of (T;T) https://www.snpedia.com/index.php/rs3758391")
 if Longevity15:
-    print(f"You have a trait which is associated with Longevity | rs5882 of (C;G) https://www.snpedia.com/index.php/rs5882")
+    print(f"You have a trait which is associated with Longevity | rs5882 of (A;G) https://www.snpedia.com/index.php/rs5882")
 if Longevity16:
     print(f"You have a trait which is associated with Longevity | rs1042522 (C;G) https://www.snpedia.com/index.php/rs1042522")
 # If Immunity
