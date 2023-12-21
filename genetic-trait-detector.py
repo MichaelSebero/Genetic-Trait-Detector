@@ -199,6 +199,26 @@ keyword179 = "rs1815739"
 keyword180 = "C	T" or "C|T"
 keyword181 = "rs1805086"
 keyword182 = "C	T" or "C|T"
+#=============================================================================================== Update 3
+# Metabolism 1
+keyword183 = "rs1801131"
+keyword184 = "A	C" or "A|C" or "C	C" or "C|C"
+keyword185 = "rs1801133"
+keyword186 = "C	T" or "C|T" or "T	T" or "T|T"
+keyword187 = "rs2282679"
+keyword188 = "A	C" or "A|C" or "C	C" or "C|C"
+keyword189 = "rs12785878"
+keyword190 = "G	T" or "G|T" or "T	T" or "T|T"
+keyword191 = "rs1799945"
+keyword192 = "F	G" or "F|G"
+keyword193 = "rs4988235"
+keyword194 = "C	C" or "C|C"
+keyword195 = "rs182549"
+keyword196 = "C	C" or "C|C"
+keyword197 = "rs2187668"
+keyword198 = "A	A" or "A|A"
+keyword199 = "rs5030858"
+keyword200 = "T	T" or "T|T"
 #===============================================================================================
 with open(filename, 'r') as file:
     lines = file.readlines()
@@ -301,6 +321,17 @@ Muscular_Performance4 = [i+1 for i, line in enumerate(lines) if keyword181 in li
 # OCD Detect
 OCD1 = [i+1 for i, line in enumerate(lines) if keyword123 in line and keyword124 in line]
 OCD2 = [i+1 for i, line in enumerate(lines) if keyword125 in line and keyword126 in line]
+# Metabolism Detect
+Metabolism1 = [i+1 for i, line in enumerate(lines) if keyword183 in line and keyword184 in line]
+Metabolism2 = [i+1 for i, line in enumerate(lines) if keyword185 in line and keyword186 in line]
+Metabolism3 = [i+1 for i, line in enumerate(lines) if keyword187 in line and keyword188 in line]
+Metabolism4 = [i+1 for i, line in enumerate(lines) if keyword189 in line and keyword190 in line]
+Metabolism5 = [i+1 for i, line in enumerate(lines) if keyword191 in line and keyword192 in line]
+Metabolism6 = [i+1 for i, line in enumerate(lines) if keyword193 in line and keyword194 in line]
+Metabolism7 = [i+1 for i, line in enumerate(lines) if keyword195 in line and keyword196 in line]
+Metabolism8 = [i+1 for i, line in enumerate(lines) if keyword197 in line and keyword198 in line]
+Metabolism9 = [i+1 for i, line in enumerate(lines) if keyword199 in line and keyword200 in line]
+#===============================================================================================
 # If Bipolar Disorder
 if Bipolar_Disorder1:
     print(f"You have a trait which is associated with Bipolar Disorder | rs1006737 with the genotype of (A;A) https://www.snpedia.com/index.php/rs1006737")
@@ -492,3 +523,22 @@ if OCD1:
     print(f"You have a trait which is associated with OCD | rs4570625 with the genotype of (G;G) https://www.snpedia.com/index.php/rs4570625")
 if OCD2:
     print(f"You have a trait which is associated with OCD | rs4565946 with the genotype of (C;C) https://www.snpedia.com/index.php/rs4565946")
+# If Metabolism
+if Metabolism1:
+    print(f"You have a trait which is associated with Metabolism | rs1801131 https://www.snpedia.com/index.php/rs1801131")
+if Metabolism2:
+    print(f"You have a trait which is associated with Metabolism | rs1801133 https://www.snpedia.com/index.php/rs1801133")
+if Metabolism3:
+    print(f"You have a trait which is associated with Metabolism | rs2282679 https://www.snpedia.com/index.php/rs2282679")
+if Metabolism4:
+    print(f"You have a trait which is associated with Metabolism | rs12785878 https://www.snpedia.com/index.php/rs12785878")
+if Metabolism5:
+    print(f"You have a trait which is associated with Metabolism | rs1799945 with the genotype of (G;G) https://www.snpedia.com/index.php/rs1799945")
+if Metabolism6:
+    print(f"You have a trait which is associated with Metabolism | rs4988235 with the genotype of (C;C) https://www.snpedia.com/index.php/rs4988235")
+if Metabolism7:
+    print(f"You have a trait which is associated with Metabolism | rs182549 with the genotype of (C;C) https://www.snpedia.com/index.php/rs182549")
+if Metabolism8:
+    print(f"You have a trait which is associated with Metabolism | rs2187668 with the genotype of (A;A) https://www.snpedia.com/index.php/rs2187668")
+if Metabolism9:
+    print(f"You have a trait which is associated with Metabolism | rs5030858 with the genotype of (T;T) https://www.snpedia.com/index.php/rs5030858")

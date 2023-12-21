@@ -5,7 +5,7 @@ The intention of this software is to provide a FOSS alternative to detecting gen
 
 ## This script detects genetic traits associated with 
 ```
-Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intelligence, Muscular Performance and OCD 
+Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intelligence, Muscular Performance, OCD and Metabolism 
 ```
 ## How to use Genetic-Trait-Detector
 
