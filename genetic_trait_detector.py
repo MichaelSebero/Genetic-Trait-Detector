@@ -67,10 +67,6 @@ class Rsid:
             f"{self.rsid} {allele}{self.url}"
         )
 
-    @property
-    def data(self) -> dict:
-        """return information about this trait as a dictionary"""
-
 
 class Trait:
     """traits enum class"""
