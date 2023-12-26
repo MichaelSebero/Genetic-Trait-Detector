@@ -186,6 +186,7 @@ _RSIDS = [
     ("rs5030858", "T;T", Trait.metabolism),
     ("rs12913832", "G;G", "Blue Eyes"),
     ("rs4988235", "C;C", "Lactose Intolerance"),
+    ("rs72921001", "C;C", "Thinking cilantro tastes like soap"),
 ]
 RSIDS = [Rsid(x[0], x[1], x[2]) for x in _RSIDS]
 
