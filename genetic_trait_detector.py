@@ -43,7 +43,7 @@ class Rsid:
             """form a set of allele formats"""
             if ";" in allele:
                 a0, a1 = allele.upper().split(";")
-                return (f"{a0}	{a1}", f"{a0}|{a1}")
+                return (f"{a0}	{a1}", f"{a0}|{a1}", f"{a0}{a1}")
             return (allele,)
 
         tuples = ()
