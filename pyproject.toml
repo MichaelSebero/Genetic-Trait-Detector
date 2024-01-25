@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+
+[tool.ruff]
+line-length = 88
+select = ["A", "ANN", "ARG", "B", "C4", "E", "F", "ICN", "ISC", "N", "PD", "PGH", "PLR", "PLW", "PIE", "PT", "Q", "RET", "RUF", "S", "SIM", "TID", "UP", "W", "YTT"]
+ignore = ["ANN101"]
+target-version = "py310"
