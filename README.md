@@ -1,3 +1,13 @@
+## How to Install
+
+```
+pip install colored
+
+git clone https://github.com/MichaelSebero/Genetic-Trait-Detector
+
+python3 /path/to/genetic-trait-detector.py
+```
+
 ## Description
 
 Genetic-Trait-Detector detects traits in your genes when provided DNA data which is formatted in rsID format. Once the traits are matched with genes from your DNA you'll be given a result which tells you what traits your genes are associated with. Read the disclaimer for more information reguarding results.
@@ -7,7 +17,7 @@ The intention of this software is to provide a FOSS alternative to detecting gen
 ## This script detects genetic traits associated with
 
 ```
-Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intelligence, Muscular Performance, OCD and Metabolism
+Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intelligence, Muscular Performance, OCD, Metabolism, Eyes and Hair
 ```
 
 ## How to use Genetic-Trait-Detector
