@@ -27,11 +27,11 @@ Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intel
 
 > The script looks for the rsid and genotype to determine results.
 
-    rsid      chromosome     position    allele1	allele2
+    rsid            chromosome     position    allele1	allele2
+ 
+    rs5030953       1              35675       T        T
 
-    rs5030953       1           35675     T          T
-
-- Input the DNA data pathway into the script.
+- Input the raw DNA file pathway into the console.
 
 ## DISCLAIMER
 
