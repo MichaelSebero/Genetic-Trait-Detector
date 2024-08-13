@@ -29,7 +29,7 @@ Bipolar Disorder, Alzheimer's, Autism, Schizophrenia, Longevity, Immunity, Intel
 
     rsid            chromosome     position    allele1	allele2
  
-    rs5030953       1              35675       T        T
+    rs5030953       1              35675       T            T
 
 - Input the raw DNA file pathway into the console.
 
